@@ -1,0 +1,4 @@
+
+----------------------header--------------------------
+2018-07-04 13:36:17,616 [6] ERROR WXService.QRcodeService - SelectQRcode Exception:   at WXService.DataAccess.qrcodesql.SelectQRcode(String appid, String subcode) in C:\Users\hanwang\source\repos\WXService\WXService\DataAccess\qrcodesql.cs:line 70
+   at WXService.QRcodeService.SelectQRcode(String appid, String subcode) in C:\Users\hanwang\source\repos\WXService\WXService\QRcodeService.svc.cs:line 23

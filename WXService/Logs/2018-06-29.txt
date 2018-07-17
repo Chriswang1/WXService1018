@@ -1,0 +1,32 @@
+
+----------------------header--------------------------
+2018-06-29 10:56:50,212 [9] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 10:56:50,228 [9] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=11)
+2018-06-29 10:56:50,340 [9] INFO  WXService.DataAccess.qrcodesql - SelectQRcode(qrcodeurl=)
+2018-06-29 10:58:29,282 [9] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 10:58:29,282 [9] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=11)
+2018-06-29 10:58:29,294 [9] INFO  WXService.DataAccess.qrcodesql - SelectQRcode(qrcodeurl=)
+
+----------------------header--------------------------
+2018-06-29 11:01:55,666 [6] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 11:01:55,680 [6] DEBUG WXService.QRcodeService - SelectQRcode(subcode=11,appid=22)
+2018-06-29 11:01:55,944 [6] INFO  WXService.DataAccess.qrcodesql - SelectQRcode(qrcodeurl=21312)
+2018-06-29 11:02:38,179 [13] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 11:02:38,179 [13] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=22)
+2018-06-29 11:02:54,654 [6] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 11:02:54,654 [6] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=22)
+
+----------------------header--------------------------
+2018-06-29 11:06:05,660 [9] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 11:06:05,675 [9] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=22)
+
+----------------------header--------------------------
+2018-06-29 11:12:57,004 [6] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 11:12:57,014 [6] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=22)
+
+----------------------header--------------------------
+2018-06-29 11:26:29,918 [6] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 11:26:29,929 [6] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=22)
+2018-06-29 11:27:32,813 [7] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-06-29 11:27:32,813 [7] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=11)
+2018-06-29 11:27:32,821 [7] INFO  WXService.DataAccess.qrcodesql - SelectQRcode(qrcodeurl=)

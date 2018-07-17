@@ -1,0 +1,4 @@
+
+----------------------header--------------------------
+2018-06-01 16:55:50,305 [13] DEBUG WXService.wccmemberService - start insert member&qrcode......................................
+2018-06-01 16:55:50,315 [13] DEBUG WXService.wccmemberService - AddWccMemberCommon(appid=794,subcode=31)

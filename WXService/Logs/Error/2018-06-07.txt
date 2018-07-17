@@ -1,0 +1,4 @@
+
+----------------------header--------------------------
+2018-06-07 15:01:03,289 [9] ERROR WXService.TemplateService - AddTemplateCommon Exception:   at WXService.DataAccess.templatesql.AddTemplateDetail(List`1 subcode, List`1 send_param, String msg_id, String template_id, String url, String app_token_name, Int32 ischeck, String time_stamp, String src) in C:\Users\hanwang\source\repos\WXService\WXService\DataAccess\templatesql.cs:line 25
+   at WXService.TemplateService.AddTemplateCommon(List`1 subcode, List`1 send_param, String msg_id, String template_id, String url, String app_token_name, Int32 ischeck, String time_stamp, String src) in C:\Users\hanwang\source\repos\WXService\WXService\TemplateService.svc.cs:line 23

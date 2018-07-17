@@ -1,0 +1,22 @@
+
+----------------------header--------------------------
+2018-06-08 10:32:54,549 [5] DEBUG WXService.TemplateService - start add Template common..........................
+2018-06-08 10:32:54,565 [5] DEBUG WXService.TemplateService - AddTemplateCommon(subcode=System.Collections.Generic.List`1[WXService.Subcode],send_param=WXService.Send_param,msg_id=twuq,template_id=56125,url=wwww,app_token_name=asddhjsdah,ischeck=1,time_stamp=1,src=dianshang)
+2018-06-08 10:32:54,580 [5] INFO  WXService.DataAccess.templatesql - data={"keywords1":null,"keywords2":null,"remark":null,"first":null},subcode=11
+2018-06-08 10:32:54,721 [5] INFO  WXService.DataAccess.templatesql - 模板消息中间表插入成功..........................
+2018-06-08 10:32:54,721 [5] INFO  WXService.DataAccess.templatesql - 第1个需要发送的用户添加成功
+2018-06-08 10:32:54,721 [5] INFO  WXService.DataAccess.templatesql - data={"keywords1":null,"keywords2":null,"remark":null,"first":null},subcode=12
+2018-06-08 10:32:54,742 [5] INFO  WXService.DataAccess.templatesql - 模板消息中间表插入成功..........................
+2018-06-08 10:32:54,742 [5] INFO  WXService.DataAccess.templatesql - 第2个需要发送的用户添加成功
+
+----------------------header--------------------------
+2018-06-08 10:36:07,991 [6] DEBUG WXService.TemplateService - start add Template common..........................
+2018-06-08 10:36:08,002 [6] DEBUG WXService.TemplateService - AddTemplateCommon(subcode=System.Collections.Generic.List`1[WXService.Subcode],send_param=System.Collections.Generic.List`1[WXService.Send_param],msg_id=twuq,template_id=56125,url=wwww,app_token_name=asddhjsdah,ischeck=1,time_stamp=1,src=dianshang)
+2018-06-08 10:36:08,014 [6] INFO  WXService.DataAccess.templatesql - data={"keywords1":"we","keywords2":"weee","remark":"111","first":"11"},subcode=11
+2018-06-08 10:36:08,101 [6] INFO  WXService.DataAccess.templatesql - 模板消息中间表插入成功..........................
+2018-06-08 10:36:08,101 [6] INFO  WXService.DataAccess.templatesql - 第1个模板消息插入成功
+2018-06-08 10:36:08,101 [6] INFO  WXService.DataAccess.templatesql - 第1个需要发送的用户添加成功
+2018-06-08 10:36:08,101 [6] INFO  WXService.DataAccess.templatesql - data={"keywords1":"we","keywords2":"weee","remark":"111","first":"11"},subcode=12
+2018-06-08 10:36:08,108 [6] INFO  WXService.DataAccess.templatesql - 模板消息中间表插入成功..........................
+2018-06-08 10:36:08,108 [6] INFO  WXService.DataAccess.templatesql - 第1个模板消息插入成功
+2018-06-08 10:36:08,108 [6] INFO  WXService.DataAccess.templatesql - 第2个需要发送的用户添加成功

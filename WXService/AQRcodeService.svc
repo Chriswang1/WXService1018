@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WXService.AQRcodeService" CodeBehind="AQRcodeService.svc.cs" %>
