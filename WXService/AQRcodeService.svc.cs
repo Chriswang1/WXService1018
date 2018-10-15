@@ -22,7 +22,9 @@ namespace WXService
             try
             {
                 Status qrcrcode = addqrcommon.Addqrcommondetail(appid,subcode);
+                Logger.Debug(string.Format("msg={0},status={1})", qrcrcode.msg, qrcrcode.status));
                 return qrcrcode;
+               
             }
             catch (Exception ex)
             {
@@ -32,6 +34,7 @@ namespace WXService
                                 "Addqrcommondetail", ex.Message);
                 status.msg = error.ErrorMessage;
                 status.status = StatusEnum.fail.ToString();
+                Logger.Debug(string.Format("msg={0},status={1})", status.msg, status.status));
                 return status;
                 throw new FaultException<ServiceError>(error, error.ErrorMessage);
             }

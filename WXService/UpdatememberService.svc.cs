@@ -25,6 +25,7 @@ namespace WXService
 
 
                 Status umember = Updatememsql.Updatememcommon(appid, subcode, name, telephone, email, region, province, city, systempassword, isAD);
+                Logger.Debug(string.Format("msg={0},status={1})", umember.msg, umember.status));
 
                 return umember;
             }
@@ -36,6 +37,7 @@ namespace WXService
                                 "Updatememcommon", ex.Message);
                 status.msg = error.ErrorMessage;
                 status.status = StatusEnum.fail.ToString();
+                Logger.Debug(string.Format("msg={0},status={1})", status.msg, status.status));
                 return status;
                 throw new FaultException<ServiceError>(error, error.ErrorMessage);
 

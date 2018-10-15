@@ -1,0 +1,10 @@
+
+----------------------header--------------------------
+2018-10-09 13:40:18,860 [11] DEBUG WXService.QRcodeService - start Select QRcodeurl..........................
+2018-10-09 13:40:18,869 [11] DEBUG WXService.QRcodeService - SelectQRcode(subcode=22,appid=11)
+2018-10-09 13:40:19,039 [11] INFO  WXService.DataAccess.qrcodesql - SelectQRcode(qrcodeurl=https://wxuat.dulux.com.cn)
+2018-10-09 13:40:19,055 [11] DEBUG WXService.QRcodeService - qcodeurl=,msg=二维码在生成过程中)
+2018-10-09 13:43:00,952 [13] DEBUG WXService.TemplateService - start add Template common..........................
+2018-10-09 13:43:00,952 [13] DEBUG WXService.TemplateService - AddTemplateCommon(subcode=System.Collections.Generic.List`1[WXService.Subcode],send_param=System.Collections.Generic.List`1[WXService.Send_param],msg_id=twuq,template_id=56125,url=wwww,app_token_name=asddhjsdah,ischeck=1,time_stamp=1,src=dianshang)
+2018-10-09 13:43:00,957 [13] INFO  WXService.DataAccess.templatesql - data={"keyword1":null,"keyword2":null,"keyword3":null,"remark":"111","first":"11"},subcode=11
+2018-10-09 13:43:01,051 [13] DEBUG WXService.TemplateService - msg=The parameterized query '(@subcode nvarchar(2),@pk uniqueidentifier,@appid nvarchar(4000)' expects the parameter '@appid', which was not supplied.,status=fail)

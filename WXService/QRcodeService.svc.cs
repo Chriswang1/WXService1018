@@ -21,6 +21,7 @@ namespace WXService
             try
             {
                 QRcodeCommon qrcodecommon = qrcodesql.SelectQRcode(appid,subcode);
+                Logger.Debug(string.Format("qcodeurl={0},msg={1})", qrcodecommon.qcodeurl, qrcodecommon.msg));
                 //if (qrcodecommon == null)
                 //{
                 //    throw new FaultException("Select Failed");
@@ -39,6 +40,7 @@ namespace WXService
                     qrcodecommon.msg = "未找到subcode对应的会员";
                 }
                 qrcodecommon.qcodeurl = null;
+                Logger.Debug(string.Format("qcodeurl={0},msg={1})", qrcodecommon.qcodeurl, qrcodecommon.msg));
                 return qrcodecommon;
                 throw new FaultException<ServiceError>(error, error.ErrorMessage);
                 //Logger.Error("SelectQRcode Exception:" + ex.StackTrace);

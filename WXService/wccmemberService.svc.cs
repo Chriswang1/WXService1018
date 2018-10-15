@@ -51,6 +51,7 @@ namespace WXService
 
                     //return wccmember;
                 }**/
+                Logger.Debug(string.Format("msg={0},status={1})", wccmember.msg, wccmember.status));
                 return wccmember;
             }
             catch (Exception ex)
@@ -61,6 +62,7 @@ namespace WXService
                                 "AddWccMemberCommon", ex.Message);
                 status.msg = error.ErrorMessage;
                 status.status = StatusEnum.fail.ToString();
+                Logger.Debug(string.Format("msg={0},status={1})", status.msg, status.status));
                 return status;
                 throw new FaultException<ServiceError>(error, error.ErrorMessage);
                  

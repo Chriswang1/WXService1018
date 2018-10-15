@@ -11,6 +11,8 @@ namespace WXService
         [DataMember]
         public string keyword2 { get; set; }
         [DataMember]
+        public string keyword3 { get; set; }
+        [DataMember]
         public string remark { get; set; }
         [DataMember]
         public string first { get; set; }

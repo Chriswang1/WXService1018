@@ -21,6 +21,7 @@ namespace WXService
             try
             {
                 Status template = templatesql.AddTemplateDetail(appid,subcode, send_param, msg_id,template_id,url,app_token_name,ischeck,time_stamp,src);
+                Logger.Debug(string.Format("msg={0},status={1})", template.msg, template.status));
                 return template;
             }
             catch (Exception ex)
@@ -31,6 +32,7 @@ namespace WXService
                                 "AddWccMemberCommon", ex.Message);
                 status.msg = error.ErrorMessage;
                 status.status = StatusEnum.fail.ToString();
+                Logger.Debug(string.Format("msg={0},status={1})", status.msg, status.status));
                 return status;
                 throw new FaultException<ServiceError>(error, error.ErrorMessage);
             }

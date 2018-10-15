@@ -17,11 +17,17 @@ namespace WXService
         public List<BarcodeCommon> SelectBarcode(List<SNCommon> SN)
         {
             Logger.Debug("start select  barcode..........................");
-            Logger.Debug(string.Format("SelectBarcode(SN={0})", SN));
+            for (int i = 0; i < SN.Count; i++)
+            {
+                Logger.Debug(string.Format("SelectBarcode(SN={0})", SN[i].SN));
+            }
             try
             {
                 List<BarcodeCommon> barcodeCommon = barcodesql.SelectBarcode(SN);
-                //Logger.Info(barcodeCommon);
+                for (int i = 0; i < SN.Count; i++)
+                {
+                    Logger.Debug(string.Format("SAP_Code={0},Name_chn={1},EAN={2},ProductionDate={3},ProductCode={4},Lot_No{5},SN={6}", barcodeCommon[i].SAP_Code,barcodeCommon[i].Name_chn,barcodeCommon[i].EAN,barcodeCommon[i].ProductionDate,barcodeCommon[i].ProductCode,barcodeCommon[i].Lot_No,barcodeCommon[i].SN));
+                }
                 return barcodeCommon;
             }
             catch (Exception ex)
