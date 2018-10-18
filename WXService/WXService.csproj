@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AQRcodeService.svc" />
     <Content Include="BarcodeService.svc" />
+    <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="QRcodeService.svc" />
     <Content Include="TemplateService.svc" />
@@ -94,6 +95,12 @@
     <Compile Include="DataAccess\qrcodesql.cs" />
     <Compile Include="DataAccess\SQL.cs" />
     <Compile Include="DataAccess\templatesql.cs" />
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
